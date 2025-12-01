@@ -1,0 +1,4 @@
+repository "GameProgrammingRider/GameProgrammingRider@18968349099256@cloud"
+  path "/"
+    br "/main"
+    co "/main"
