@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "299698385092",
+    "firebase_url": "https://gameprogramming-xrider-default-rtdb.firebaseio.com",
+    "project_id": "gameprogramming-xrider",
+    "storage_bucket": "gameprogramming-xrider.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299698385092:android:0bd330f6c57360a3dd1991",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.GameProgrammingRider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYY0issTESDu6WNX3Ho2vNT030EdkcPQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

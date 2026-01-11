@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 5225404}
   - component: {fileID: 5225403}
   - component: {fileID: 5225407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,6 @@ MonoBehaviour:
   _xMultiplier: 15.9
   _yMultiplier: 24
   _curveSmoothness: 0.1
-  _noiseStep: 0.6
   _bottom: 10
 --- !u!114 &5225404
 MonoBehaviour:
@@ -2316,7 +2315,7 @@ EdgeCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c5c666b57e4595441be88c7be8445f41, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3643,10 +3642,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.3
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3654,9 +3653,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &52889448
 SpriteRenderer:
@@ -5249,9 +5248,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 6
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 1
+  m_LinearDamping: 0.5
+  m_AngularDamping: 1
   m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -5262,7 +5261,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!4 &1490687544
 Transform:
@@ -5299,15 +5298,15 @@ WheelJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: -0.817, y: -0.39999998}
+  m_Anchor: {x: -0.73200035, y: -0.4279995}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_Suspension:
     m_DampingRatio: 0.7
-    m_Frequency: 15
+    m_Frequency: 10
     m_Angle: 90
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
-    m_MotorSpeed: 0
+    m_MotorSpeed: 2000
     m_MaximumMotorForce: 10000
 --- !u!235 &1490687546
 WheelJoint2D:
@@ -5324,15 +5323,15 @@ WheelJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0.8, y: -0.44}
+  m_Anchor: {x: 0.88199997, y: -0.4279995}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_Suspension:
     m_DampingRatio: 0.7
-    m_Frequency: 15
+    m_Frequency: 10
     m_Angle: 90
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
-    m_MotorSpeed: 0
+    m_MotorSpeed: 2000
     m_MaximumMotorForce: 10000
 --- !u!114 &1490687547
 MonoBehaviour:
@@ -5346,11 +5345,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e845b9203028e4e9072e6a8d83e4b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DriveCar
-  _frontTireRB: {fileID: 52889447}
-  _backTireRB: {fileID: 1535091769}
+  _backWheelJoint: {fileID: 1490687545}
+  _frontWheelJoint: {fileID: 1490687546}
   _carRb: {fileID: 1490687543}
-  _speed: 5000
-  _rotationSpeed: 1000
+  _speed: 3000
+  _rotationSpeed: 500
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1535091766
 GameObject:
   m_ObjectHideFlags: 0
@@ -5433,10 +5435,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.3
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5444,9 +5446,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &1535091770
 SpriteRenderer:

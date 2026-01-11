@@ -1,0 +1,585 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2025-12-08T13:43:22.7990709Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 15608 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-08T13:43:22Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/user/GameProgrammingRider/GameProgrammingRider
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60558
+-licensingIpc
+LicenseClient-user
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/user/GameProgrammingRider/GameProgrammingRider
+C:/Users/user/GameProgrammingRider/GameProgrammingRider
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19012]  Target information:
+
+Player connection [19012]  * "[IP] 169.254.185.106 [Port] 0 [Flags] 2 [Guid] 4258609224 [EditorId] 4258609224 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U0D2RL8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19012]  * "[IP] 10.253.100.242 [Port] 0 [Flags] 2 [Guid] 4258609224 [EditorId] 4258609224 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U0D2RL8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19012] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19012] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36460, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              9b76a92fa6d44b1ca3680644f853bb89
+  Correlation Id:          7a25d25c0dc6737a4c53ff4ddc4b234d
+  External correlation Id: 1946932091762233964
+  Machine Id:              CRZ2W+nGI6boJLwyX07a173rfls=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2025-12-08T13:43:22.848188Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/GameProgrammingRider/GameProgrammingRider/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1681)
+    Vendor:   ATI
+    VRAM:     7804 MB
+    Driver:   32.0.12011.1036
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005337 seconds.
+- Loaded All Assemblies, in  1.334 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 2139ms
+	BeginReloadAssembly (539ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (530ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (515ms)
+			TypeCache.Refresh (511ms)
+				TypeCache.ScanAssembly (471ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (814ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (696ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (125ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966686559515-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.049 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.270 seconds
+Domain Reload Profiling: 4304ms
+	BeginReloadAssembly (406ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (1420ms)
+		LoadAssemblies (891ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (764ms)
+			TypeCache.Refresh (480ms)
+				TypeCache.ScanAssembly (447ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1863ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (344ms)
+			ProcessInitializeOnLoadAttributes (1242ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7164 unused Assets / (6.1 MB). Loaded Objects now: 7891.
+Memory consumption went from 144.3 MB to 138.2 MB.
+Total: 20.741100 ms (FindLiveObjects: 1.157900 ms CreateObjectMapping: 1.343000 ms MarkObjects: 12.818200 ms  DeleteObjects: 5.418400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 415898.848937 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy4.prefab
+  artifactKey: Guid(140c9311c5cc14bb1920d9ed97520d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy4.prefab using Guid(140c9311c5cc14bb1920d9ed97520d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26a1b180e61605a931730ba8601b8a0a') in 0.984902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard3.prefab
+  artifactKey: Guid(c8a95913c78de4d9f944bb902ea70c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard3.prefab using Guid(c8a95913c78de4d9f944bb902ea70c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e910dfe4961fd408f708d3f8efe7755') in 0.0172401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard2.prefab
+  artifactKey: Guid(c1a8f7d3a19ce4ea99afdfbce59efcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard2.prefab using Guid(c1a8f7d3a19ce4ea99afdfbce59efcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2de879e05eaa4eddf19900b364e2affd') in 0.0151898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium1.prefab
+  artifactKey: Guid(d5cd5245ea2094c748d4f3200541bedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium1.prefab using Guid(d5cd5245ea2094c748d4f3200541bedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0121e8c7018f4f304b549e3d0ca8ab2') in 0.0177445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.851327 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy1.prefab
+  artifactKey: Guid(7564cad00730d4a8a881a587403b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy1.prefab using Guid(7564cad00730d4a8a881a587403b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '652dc6e582b374de2de3fb7cf93f02be') in 0.014297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.233535 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy1.prefab
+  artifactKey: Guid(7564cad00730d4a8a881a587403b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy1.prefab using Guid(7564cad00730d4a8a881a587403b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4db307a3fa7000bfabecbede6476b7f0') in 0.0122774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.775370 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy2.prefab
+  artifactKey: Guid(0440a3ff897364eb99a99eab9229f206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy2.prefab using Guid(0440a3ff897364eb99a99eab9229f206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f19c10e9ff42ea615dc9fe7bad52ffe') in 0.0120968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.086808 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy2.prefab
+  artifactKey: Guid(0440a3ff897364eb99a99eab9229f206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy2.prefab using Guid(0440a3ff897364eb99a99eab9229f206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236fb56449e220cc7b63fec60a156676') in 0.0121976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.846617 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy3.prefab
+  artifactKey: Guid(4cc577faa70784e06953d54f283776a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy3.prefab using Guid(4cc577faa70784e06953d54f283776a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc7c98c5cbc9ea1940ded0701331ed5d') in 0.0118511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.896442 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy3.prefab
+  artifactKey: Guid(4cc577faa70784e06953d54f283776a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy3.prefab using Guid(4cc577faa70784e06953d54f283776a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e790145b1f9d61d5b1c283e950c76a') in 0.0122735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.132305 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy4.prefab
+  artifactKey: Guid(140c9311c5cc14bb1920d9ed97520d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy4.prefab using Guid(140c9311c5cc14bb1920d9ed97520d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2280bf9963284b35b09a3d3cb5a3d2a') in 0.0125047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.846238 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy4.prefab
+  artifactKey: Guid(140c9311c5cc14bb1920d9ed97520d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy4.prefab using Guid(140c9311c5cc14bb1920d9ed97520d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7ced15adea2c92f0290b224d3a3d424') in 0.0148864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.313870 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy5.prefab
+  artifactKey: Guid(23b7c7145486349e59bba86158e1d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy5.prefab using Guid(23b7c7145486349e59bba86158e1d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e561590ffc844c68bfed749bfaa643c') in 0.0121635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.288798 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Easy5.prefab
+  artifactKey: Guid(23b7c7145486349e59bba86158e1d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Easy5.prefab using Guid(23b7c7145486349e59bba86158e1d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b659dc4bd305b0aeda1a6b3f9b210cd4') in 0.0157942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.633170 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard1.prefab
+  artifactKey: Guid(23cdf1e45684443ca9a4b3593c08d599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard1.prefab using Guid(23cdf1e45684443ca9a4b3593c08d599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9833c1335352cbc3193ed74a2fe06912') in 0.0133721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.269636 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard1.prefab
+  artifactKey: Guid(23cdf1e45684443ca9a4b3593c08d599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard1.prefab using Guid(23cdf1e45684443ca9a4b3593c08d599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27d4009f13dcf9db600a09137bb4ae9') in 0.0119474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.372105 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard2.prefab
+  artifactKey: Guid(c1a8f7d3a19ce4ea99afdfbce59efcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard2.prefab using Guid(c1a8f7d3a19ce4ea99afdfbce59efcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '125a271c5322639af3c0d2ac6daf8cc0') in 0.0127157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.038673 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard2.prefab
+  artifactKey: Guid(c1a8f7d3a19ce4ea99afdfbce59efcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard2.prefab using Guid(c1a8f7d3a19ce4ea99afdfbce59efcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d3c374d8c1427fc05103787b4ab5b0') in 0.0176852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825652 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard3.prefab
+  artifactKey: Guid(c8a95913c78de4d9f944bb902ea70c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard3.prefab using Guid(c8a95913c78de4d9f944bb902ea70c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7f3f4da7bbf591fb3f6754619775b3b') in 0.0134065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.263153 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Hard3.prefab
+  artifactKey: Guid(c8a95913c78de4d9f944bb902ea70c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Hard3.prefab using Guid(c8a95913c78de4d9f944bb902ea70c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f16ccbbe9a6d22a7dddfbfc8b424677') in 0.0140786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.869906 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium1.prefab
+  artifactKey: Guid(d5cd5245ea2094c748d4f3200541bedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium1.prefab using Guid(d5cd5245ea2094c748d4f3200541bedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97c4f8bd41255897608181678d987938') in 0.016842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793106 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium1.prefab
+  artifactKey: Guid(d5cd5245ea2094c748d4f3200541bedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium1.prefab using Guid(d5cd5245ea2094c748d4f3200541bedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c53567e2b32c42b87265fb4f5a00beea') in 0.015441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.325655 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium2.prefab
+  artifactKey: Guid(997ee85e3b2784aff97bf269236305cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium2.prefab using Guid(997ee85e3b2784aff97bf269236305cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd9782afedef5b00d2cf52f6a23690e') in 0.015069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.805090 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium2.prefab
+  artifactKey: Guid(997ee85e3b2784aff97bf269236305cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium2.prefab using Guid(997ee85e3b2784aff97bf269236305cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b3006330563050920204e6e921b040a') in 0.0122534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.677285 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium3.prefab
+  artifactKey: Guid(ec61cf2563adc4a94bcce29d9ac0cfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium3.prefab using Guid(ec61cf2563adc4a94bcce29d9ac0cfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83e3fc86a6cbae7b5d850c4f0ae3096a') in 0.0153937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.885292 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium3.prefab
+  artifactKey: Guid(ec61cf2563adc4a94bcce29d9ac0cfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium3.prefab using Guid(ec61cf2563adc4a94bcce29d9ac0cfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c05e85552e9b163040c9c3ca51170c') in 0.013242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.985143 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium4.prefab
+  artifactKey: Guid(5eb7a51021620485eabc737b3cef0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium4.prefab using Guid(5eb7a51021620485eabc737b3cef0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19373e17b0797a36e4e2e8371dfc77d6') in 0.0157106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.424120 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium4.prefab
+  artifactKey: Guid(5eb7a51021620485eabc737b3cef0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium4.prefab using Guid(5eb7a51021620485eabc737b3cef0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eac2ee96b4193643f4a8d410c030726') in 0.0130675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.729261 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium5.prefab
+  artifactKey: Guid(f70c2b67739c24af3a92b7947cfa09bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium5.prefab using Guid(f70c2b67739c24af3a92b7947cfa09bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7637a48da18de80fe5ddb47648b1e78') in 0.0152235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.705251 seconds.
+  path: Assets/Personel Folders/Ege/NEW/Prefabs/Medium5.prefab
+  artifactKey: Guid(f70c2b67739c24af3a92b7947cfa09bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personel Folders/Ege/NEW/Prefabs/Medium5.prefab using Guid(f70c2b67739c24af3a92b7947cfa09bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1536d585035e0a598b312221964a917') in 0.0128957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.711 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.808 seconds
+Domain Reload Profiling: 3512ms
+	BeginReloadAssembly (483ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1047ms)
+		LoadAssemblies (753ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (495ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (441ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1809ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (285ms)
+			ProcessInitializeOnLoadAttributes (1017ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7162 unused Assets / (5.4 MB). Loaded Objects now: 7926.
+Memory consumption went from 152.1 MB to 146.7 MB.
+Total: 21.877400 ms (FindLiveObjects: 1.207600 ms CreateObjectMapping: 2.089300 ms MarkObjects: 12.462800 ms  DeleteObjects: 6.115900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.687 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.920 seconds
+Domain Reload Profiling: 3597ms
+	BeginReloadAssembly (474ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1020ms)
+		LoadAssemblies (768ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (472ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (423ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (369ms)
+			ProcessInitializeOnLoadAttributes (1055ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7162 unused Assets / (5.5 MB). Loaded Objects now: 7928.
+Memory consumption went from 152.0 MB to 146.5 MB.
+Total: 20.940700 ms (FindLiveObjects: 1.271200 ms CreateObjectMapping: 1.667900 ms MarkObjects: 11.241900 ms  DeleteObjects: 6.757900 ms)
+
+Prepare: number of updated asset objects reloaded= 0

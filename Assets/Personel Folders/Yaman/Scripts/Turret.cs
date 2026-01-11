@@ -25,7 +25,7 @@ public class Turret : MonoBehaviour
         if (target == null)
         {
             // Try to find the player only once at the start
-            var player = GameObject.FindObjectOfType<RiderLikeController_Full>();
+            var player = GameObject.FindAnyObjectByType<RiderLikeController_Full>();
             if (player != null)
             {
                 target = player.transform;
