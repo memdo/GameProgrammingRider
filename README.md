@@ -154,24 +154,25 @@ The project contains multiple scenes organized by contributor:
 1. **Start the Game**
    - Launch the game from the main menu
    - Enter your player name when prompted
+   - Click the "PLAY" button
 
-2. **Select a Vehicle**
+2. **Gameplay Controls**
+   - **Left Side of the Screen (Hold)**: Accelerate forward and flip/rotate vehicle while airborne
+   - **Right Side of the Screen (Hold)**: Deaccelerate and reverse flip/rotate vehicle while airborne
+   - **Boost Button**: Vehicle gains a speed boost for 2 seconds with a 5 second cooldown
+   - **Pause Button**: See settings menu, restart the game or exit to the main menu
+
+3. **Select a Vehicle** (Optional)
    - Navigate to the garage scene
    - Browse available vehicles using left/right navigation
    - Unlock vehicles by spending coins
    - Select a vehicle to start playing
 
-3. **Select a Theme** (Optional)
+4. **Select a Theme** (Optional)
    - Navigate to the theme selection scene
    - Browse available themes
    - Click "SELECT" to apply a theme
-   - Themes affect the parallax background in gameplay
-
-4. **Gameplay Controls**
-   - **Mouse Left Button (Hold)**: Flip/rotate vehicle while airborne
-   - **A Key**: Shoot bullets (aims toward mouse cursor)
-   - **Automatic Forward Movement**: Vehicle maintains forward speed
-   - **Physics-Based**: Vehicle responds to terrain and physics
+   - Themes affect the dynamic background in gameplay
 
 5. **Gameplay Objectives**
    - Travel as far as possible
@@ -209,10 +210,6 @@ The theme system allows players to customize the game's visual appearance:
    - Themes are automatically loaded in gameplay scenes
    - Ensure `ThemeAwareParallaxController` is attached to a `ParallaxContainer` GameObject
    - Configure parallax speed and layer spacing in the Inspector
-
-For detailed theme system documentation, see:
-- `Assets/Personel Folders/Umut/HIZLI_BASLANGIC.md`
-- `Assets/Personel Folders/Umut/GAMEPLAY_TEMA_KURULUM.md`
 
 ### Vehicle System
 
@@ -271,11 +268,6 @@ If you want to use your own Firebase project:
      }
    }
    ```
-
-4. **iOS Configuration** (if building for iOS)
-   - Add iOS app to Firebase project
-   - Download `GoogleService-Info.plist`
-   - Place in `Assets/` directory
 
 #### Environment Variables
 
@@ -393,32 +385,18 @@ This project is licensed under the MIT License. See LICENSE file for details.
 
 ### Contributors
 
-- **Berkay**
-- **Cenk**
-- **Ece**
-- **Ege**
-- **Salih**
-- **Umut**
-- **Yaman**
-
+- **Umut Sidar Tahtasakal - *21070001213***
+- **Remzi Yaman Esen - *21070006026***
+- **Salih Aydın - *22070001011***
+- **Murat Ege Baykent - *22070001018***
+- **Ece Coşdur - *22070001050***
+- **Mustafa Berkay Düzenli - *22070001068***
+- **Cenk Serbest - *22070001079***
 ### Asset Credits
 
 - **Audio**: DavidKBD - Pink Bloom Pack
-- **Sprites**: Various contributors (see individual folders in `Assets/Personel Folders/`)
 
 ### Third-Party Libraries
 
 - **Firebase SDK**: [Firebase Unity SDK](https://firebase.google.com/docs/unity/setup)
 - **Unity Technologies**: Unity Engine and associated packages
-
-### Documentation
-
-Additional documentation can be found in:
-- `Assets/Personel Folders/Umut/HIZLI_BASLANGIC.md` - Quick start guide for theme system
-- `Assets/Personel Folders/Umut/GAMEPLAY_TEMA_KURULUM.md` - Theme system integration guide
-
----
-
-**Project Name**: XRider
-**Unity Version**: 6000.2.8f1  
-**Last Updated**: 2024
