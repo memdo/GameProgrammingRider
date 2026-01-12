@@ -18,7 +18,7 @@ XRider is a 2D endless runner game where players control a vehicle through proce
 
 ### Core Gameplay Mechanics
 
-- **Physics-Based Vehicle Control**: Realistic 2D physics simulation with vehicle flipping, shooting mechanics, and ground detection
+- **Physics-Based Vehicle Control**: Realistic 2D physics simulation with vehicle flipping mechanics and ground detection
 - **Procedural Level Generation**: Chunk-based system that generates terrain with progressive difficulty
 - **Distance-Based Scoring**: Score increases based on distance traveled and coins collected
 - **Coin Collection System**: Collect coins during gameplay to unlock new vehicles and themes
@@ -112,8 +112,6 @@ The project uses the following Unity packages (see `Packages/manifest.json`):
 
 ### Scene Setup
 
-The project contains multiple scenes organized by contributor:
-
 **Main Scenes:**
 - **Main Menu**: `Assets/Personel Folders/Ege/NEW/gameui.unity`
 - **Gameplay**: `Assets/Personel Folders/Ege/NEW/New Scene.unity`
@@ -191,8 +189,6 @@ The project contains multiple scenes organized by contributor:
    - Leaderboard updates in real-time
 
 ### Theme System Usage
-
-The theme system allows players to customize the game's visual appearance:
 
 1. **Selecting a Theme**
    - Navigate to Theme Selection Scene
