@@ -3,7 +3,7 @@ using UnityEngine;
 public class MoonGravityPickup : MonoBehaviour
 {
     [Tooltip("Özelliðin kaç saniye süreceði")]
-    [SerializeField] private float duration = 1.0f; // 2 saniye havada kalsýn
+    [SerializeField] private float duration = 0f; // 2 saniye havada kalsýn
 
     private void OnTriggerEnter2D(Collider2D other)
     {

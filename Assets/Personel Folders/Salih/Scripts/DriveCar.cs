@@ -439,7 +439,7 @@ public class DriveCar : MonoBehaviour
         float originalGravity = _carRb.gravityScale;
         float originalDownforce = _downforce;
         // 2. "Ay Modu" ayarlarını uygula
-        _carRb.gravityScale = 0.1f; // Yer çekimini çok azalt (süzülmesi için)
+        _carRb.gravityScale = 0.2f; // Yer çekimini çok azalt (süzülmesi için)
         _downforce = 0f;            // Yere yapışma kuvvetini kapat (yoksa havaya kalkamaz)
         // 3. Aracı hafifçe havaya fırlat (Hoplatma efekti)
         // Impulse modu ile anlık bir itme kuvveti uyguluyoruz. Değeri kütleye göre ayarladım.
@@ -451,6 +451,14 @@ public class DriveCar : MonoBehaviour
         // 5. Değerleri normale döndür
         _carRb.gravityScale = originalGravity;
         _downforce = originalDownforce;
+
+        if (_carRb.linearVelocity.y > 0)
+        {
+            // Dikey hızı sıfırla veya çok azalt ki düşmeye başlasın
+            Vector2 stopUpward = _carRb.linearVelocity;
+            stopUpward.y = stopUpward.y * 0.1f; // Hızı %90 kes
+            _carRb.linearVelocity = stopUpward;
+        }
 
         Debug.Log("Ay Yer Çekimi Sona Erdi.");
     }
